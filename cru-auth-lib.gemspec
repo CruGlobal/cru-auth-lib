@@ -17,6 +17,6 @@ Gem::Specification.new do |s|
   s.files = Dir['{app,config,db,lib}/**/*', 'MIT-LICENSE', 'Rakefile', 'README.md']
   s.require_paths = ['lib']
 
-  s.add_dependency 'active_model_serializers', '~> 0.10.0'
+  s.add_dependency 'active_model_serializers', '>= 0.10.0.rc1'
   s.add_dependency 'redis', '~> 3.3'
 end
